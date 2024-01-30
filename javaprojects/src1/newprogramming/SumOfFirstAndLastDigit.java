@@ -12,7 +12,9 @@ public static void main(String[] args) {
 	{
 		int k=n%10;
 		if(n<=9)
+		{
 			sum=sum+k;
+		}
 		n=n/10;
 	}
 	System.out.println("sum of 1st and last digit is "+sum);
